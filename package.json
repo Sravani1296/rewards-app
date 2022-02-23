@@ -1,0 +1,30 @@
+{
+  "name": "retailer-rewards-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd retailer-rewards && npm start",
+    "dev": "concurrently \"npm run server\" \" npm run client\"" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sravani1296/rewards-app.git"
+  },
+  "author": "Sravani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sravani1296/rewards-app/issues"
+  },
+  "homepage": "https://github.com/Sravani1296/rewards-app#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

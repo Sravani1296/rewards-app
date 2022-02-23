@@ -1,0 +1,16 @@
+select {
+    appearance: none;
+    outline: 0;
+    background: #282c34;
+    background-image: none;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 2em;
+  }
+
+  .drop-down{
+      padding: 1rem;
+
+  }
