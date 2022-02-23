@@ -4,7 +4,7 @@ express, nodemon and react-table modules.
 Node is running on port 8080 
 Client is running on port 3000 
 
-Once cloned, do, cd to retailer-rewards-app and execute the command
+Once cloned, do, cd to rewards-app and execute the command
 
 npm run dev 
 
